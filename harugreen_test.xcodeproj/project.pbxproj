@@ -7,8 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67026BA52AD6CD0500006045 /* splashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67026BA42AD6CD0500006045 /* splashView.swift */; };
+		678C7DE92B1DA4C20043EE3A /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678C7DE82B1DA4C20043EE3A /* Memo.swift */; };
+		67AC1D5E2AFC9CE40099C557 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AC1D5D2AFC9CE40099C557 /* ImagePicker.swift */; };
+		67AC1D622AFCB4C70099C557 /* HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AC1D612AFCB4C70099C557 /* HideKeyboard.swift */; };
+		67AC1D642AFD2FF70099C557 /* MypageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AC1D632AFD2FF70099C557 /* MypageView.swift */; };
+		67C74F832B184A110024A1B6 /* WriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C74F822B184A110024A1B6 /* WriteView.swift */; };
+		67C8DB342AD7FCC1004ABE91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C8DB332AD7FCC1004ABE91 /* ContentView.swift */; };
+		67DA546C2B1DD08F00EA27BF /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DA546B2B1DD08F00EA27BF /* Award.swift */; };
+		67DEEF5A2AE9334A006EC25E /* TabBar in Frameworks */ = {isa = PBXBuildFile; productRef = 67DEEF592AE9334A006EC25E /* TabBar */; };
+		67DEEF5C2AE9FC62006EC25E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DEEF5B2AE9FC62006EC25E /* Home.swift */; };
+		67DEEF612AEA0290006EC25E /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DEEF602AEA0290006EC25E /* Record.swift */; };
+		67DEEF632AEA03B6006EC25E /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DEEF622AEA03B6006EC25E /* CalendarView.swift */; };
+		67DEEF672AEA3354006EC25E /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DEEF662AEA3354006EC25E /* TodoView.swift */; };
+		67EC5CFB2AEFF18F00E18C16 /* TempView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EC5CFA2AEFF18F00E18C16 /* TempView.swift */; };
+		67F758962B1E12C800833D68 /* ReadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F758952B1E115F00833D68 /* ReadingView.swift */; };
 		67FCAEC22A8932F0006308F5 /* harugreen_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FCAEC12A8932F0006308F5 /* harugreen_testApp.swift */; };
-		67FCAEC42A8932F0006308F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FCAEC32A8932F0006308F5 /* ContentView.swift */; };
 		67FCAEC62A8932F1006308F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67FCAEC52A8932F1006308F5 /* Assets.xcassets */; };
 		67FCAEC92A8932F1006308F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67FCAEC82A8932F1006308F5 /* Preview Assets.xcassets */; };
 		67FCAED32A8932F2006308F5 /* harugreen_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FCAED22A8932F2006308F5 /* harugreen_testTests.swift */; };
@@ -34,9 +48,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		67026BA42AD6CD0500006045 /* splashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashView.swift; sourceTree = "<group>"; };
+		678C7DE82B1DA4C20043EE3A /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		67AC1D5D2AFC9CE40099C557 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		67AC1D5F2AFCA05C0099C557 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
+		67AC1D612AFCB4C70099C557 /* HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboard.swift; sourceTree = "<group>"; };
+		67AC1D632AFD2FF70099C557 /* MypageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageView.swift; sourceTree = "<group>"; };
+		67C74F822B184A110024A1B6 /* WriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteView.swift; sourceTree = "<group>"; };
+		67C8DB332AD7FCC1004ABE91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		67DA546B2B1DD08F00EA27BF /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
+		67DEEF5B2AE9FC62006EC25E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		67DEEF602AEA0290006EC25E /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		67DEEF622AEA03B6006EC25E /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		67DEEF662AEA3354006EC25E /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
+		67EC5CFA2AEFF18F00E18C16 /* TempView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempView.swift; sourceTree = "<group>"; };
+		67F758952B1E115F00833D68 /* ReadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingView.swift; sourceTree = "<group>"; };
 		67FCAEBE2A8932F0006308F5 /* harugreen_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = harugreen_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67FCAEC12A8932F0006308F5 /* harugreen_testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = harugreen_testApp.swift; sourceTree = "<group>"; };
-		67FCAEC32A8932F0006308F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		67FCAEC52A8932F1006308F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67FCAEC82A8932F1006308F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		67FCAECE2A8932F2006308F5 /* harugreen_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = harugreen_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67DEEF5A2AE9334A006EC25E /* TabBar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,9 +100,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67DEEF5D2AE9FEC4006EC25E /* Font */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		67DEEF642AEA29B0006EC25E /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				67DEEF622AEA03B6006EC25E /* CalendarView.swift */,
+				67DEEF662AEA3354006EC25E /* TodoView.swift */,
+				678C7DE82B1DA4C20043EE3A /* Memo.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		67DEEF652AEA2BB9006EC25E /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				67DEEF602AEA0290006EC25E /* Record.swift */,
+				67DEEF5B2AE9FC62006EC25E /* Home.swift */,
+				67DA546B2B1DD08F00EA27BF /* Award.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
 		67FCAEB52A8932F0006308F5 = {
 			isa = PBXGroup;
 			children = (
+				67AC1D5F2AFCA05C0099C557 /* info.plist */,
 				67FCAEC02A8932F0006308F5 /* harugreen_test */,
 				67FCAED12A8932F2006308F5 /* harugreen_testTests */,
 				67FCAEDB2A8932F2006308F5 /* harugreen_testUITests */,
@@ -94,10 +151,20 @@
 		67FCAEC02A8932F0006308F5 /* harugreen_test */ = {
 			isa = PBXGroup;
 			children = (
+				67AC1D612AFCB4C70099C557 /* HideKeyboard.swift */,
+				67DEEF652AEA2BB9006EC25E /* Pages */,
+				67DEEF642AEA29B0006EC25E /* Component */,
+				67DEEF5D2AE9FEC4006EC25E /* Font */,
+				67026BA42AD6CD0500006045 /* splashView.swift */,
 				67FCAEC12A8932F0006308F5 /* harugreen_testApp.swift */,
-				67FCAEC32A8932F0006308F5 /* ContentView.swift */,
+				67C8DB332AD7FCC1004ABE91 /* ContentView.swift */,
 				67FCAEC52A8932F1006308F5 /* Assets.xcassets */,
 				67FCAEC72A8932F1006308F5 /* Preview Content */,
+				67EC5CFA2AEFF18F00E18C16 /* TempView.swift */,
+				67C74F822B184A110024A1B6 /* WriteView.swift */,
+				67AC1D5D2AFC9CE40099C557 /* ImagePicker.swift */,
+				67AC1D632AFD2FF70099C557 /* MypageView.swift */,
+				67F758952B1E115F00833D68 /* ReadingView.swift */,
 			);
 			path = harugreen_test;
 			sourceTree = "<group>";
@@ -143,6 +210,9 @@
 			dependencies = (
 			);
 			name = harugreen_test;
+			packageProductDependencies = (
+				67DEEF592AE9334A006EC25E /* TabBar */,
+			);
 			productName = harugreen_test;
 			productReference = 67FCAEBE2A8932F0006308F5 /* harugreen_test.app */;
 			productType = "com.apple.product-type.application";
@@ -191,7 +261,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					67FCAEBD2A8932F0006308F5 = {
 						CreatedOnToolsVersion = 14.3;
@@ -213,8 +283,12 @@
 			knownRegions = (
 				en,
 				Base,
+				ko,
 			);
 			mainGroup = 67FCAEB52A8932F0006308F5;
+			packageReferences = (
+				67DEEF582AE9334A006EC25E /* XCRemoteSwiftPackageReference "TabBar" */,
+			);
 			productRefGroup = 67FCAEBF2A8932F0006308F5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +331,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67FCAEC42A8932F0006308F5 /* ContentView.swift in Sources */,
+				67AC1D622AFCB4C70099C557 /* HideKeyboard.swift in Sources */,
+				67026BA52AD6CD0500006045 /* splashView.swift in Sources */,
 				67FCAEC22A8932F0006308F5 /* harugreen_testApp.swift in Sources */,
+				67DEEF672AEA3354006EC25E /* TodoView.swift in Sources */,
+				67DEEF612AEA0290006EC25E /* Record.swift in Sources */,
+				67EC5CFB2AEFF18F00E18C16 /* TempView.swift in Sources */,
+				678C7DE92B1DA4C20043EE3A /* Memo.swift in Sources */,
+				67DEEF5C2AE9FC62006EC25E /* Home.swift in Sources */,
+				67AC1D5E2AFC9CE40099C557 /* ImagePicker.swift in Sources */,
+				67F758962B1E12C800833D68 /* ReadingView.swift in Sources */,
+				67AC1D642AFD2FF70099C557 /* MypageView.swift in Sources */,
+				67DEEF632AEA03B6006EC25E /* CalendarView.swift in Sources */,
+				67C74F832B184A110024A1B6 /* WriteView.swift in Sources */,
+				67C8DB342AD7FCC1004ABE91 /* ContentView.swift in Sources */,
+				67DA546C2B1DD08F00EA27BF /* Award.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +418,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -391,6 +479,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -419,7 +508,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"harugreen_test/Preview Content\"";
 				DEVELOPMENT_TEAM = QVVGWWJPC8;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = /Users/woosy/Desktop/harugreen_test/info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "하루그린";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -448,7 +539,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"harugreen_test/Preview Content\"";
 				DEVELOPMENT_TEAM = QVVGWWJPC8;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = /Users/woosy/Desktop/harugreen_test/info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "하루그린";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -583,6 +676,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		67DEEF582AE9334A006EC25E /* XCRemoteSwiftPackageReference "TabBar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onl1ner/TabBar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		67DEEF592AE9334A006EC25E /* TabBar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 67DEEF582AE9334A006EC25E /* XCRemoteSwiftPackageReference "TabBar" */;
+			productName = TabBar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 67FCAEB62A8932F0006308F5 /* Project object */;
 }

@@ -1,8 +1,17 @@
-//
-//  splashView.swift
-//  harugreen_test
-//
-//  Created by WooSY on 2023/10/11.
-//
+import SwiftUI
 
-import Foundation
+
+struct SplashView: View {
+    var body: some View {
+        ZStack {
+            Color("SystemBackground").ignoresSafeArea()
+            VStack {
+                Spacer()
+                Spacer()
+                Text("하루그린")
+                    .font(.title)
+                Spacer()
+            }
+        }
+    }
+}
