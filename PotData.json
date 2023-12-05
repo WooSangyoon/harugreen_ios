@@ -1,0 +1,20 @@
+[
+    {
+        "name": "기본",
+        "explanation": "기본화분",
+        "image": "plant1",
+        "requirement": 0
+    },
+    {
+        "name": "고급화분1",
+        "explanation": "조건부 언락 화분1",
+        "image": "plant2",
+        "requirement": 1
+    },
+    {
+        "name": "고급화분2",
+        "explanation": "조건부 언락 화분2",
+        "image": "plant3",
+        "requirement": 5
+    }
+   ]
